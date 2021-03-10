@@ -1,7 +1,9 @@
 <?php
+
 class Car {
-	// public methods & properties.
-	public $model;
+	
+	// private.
+	private $model;
 	
 	public function getModel()
 	{
@@ -10,8 +12,9 @@ class Car {
 }
 
 $mercedes = new Car();
-//akses property dari dalam class
+
+//akses property dari luar class.
 $mercedes -> model = "Mercedes benz";
-//akses property dari luar class
 echo $mercedes -> getModel();
+
 ?>
