@@ -1,12 +1,12 @@
-<?
+<?php
 class Car {
 	
 	//properties
 	public $comp;
 	public $color = 'beige';
-	public $hasSunRoof = 'true';
+	public $hasSunRoof = true;
 	
-	//method
+	//method = hello
 	public function hello()
 	{
 		return "Beep I am a <i>" . $this -> comp . "</i>, and I am <i>" . this -> color;
@@ -23,5 +23,5 @@ $bmw -> comp = "BMW";
 $mercedes -> comp = "Mercedes Benz";
 
 //call hello method untuk $bmw object.
-echo$bmw -> hello();
+echo $bmw -> hello();
 ?>
