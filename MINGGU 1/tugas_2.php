@@ -16,7 +16,7 @@ class kendaraan{
 	
 	public function hargaSecond()
 	{
-		if ($this -> tahun_pembuatan > '2010')$bekas = $this -> harga * 20/100;
+		if ($this -> tahun_pembuatan >= '2010')$bekas = $this -> harga * 20/100;
 		else if ($this -> tahun_pembuatan <= '2010')$bekas = $this -> harga * 30/100;
 		else $bekas = $this -> harga * 40/100;
 		return "$bekas";
@@ -58,14 +58,14 @@ $Hatchback -> jumlah_roda = '4';
 $Hatchback -> merk = 'Honda';
 $Hatchback -> bahan_bakar = 'Premium';
 $Hatchback -> harga = 235000000;
-$Hatchback -> tahun_pembuatan = '2000';
+$Hatchback -> tahun_pembuatan = '2005';
 
 $MPV -> jenis_kendaraan = 'MPV';
 $MPV -> jumlah_roda = '4';
 $MPV -> merk = 'Toyota';
 $MPV -> bahan_bakar = 'Pertamax';
 $MPV -> harga = 46190000;
-$MPV -> tahun_pembuatan = '2016';
+$MPV -> tahun_pembuatan = '2010';
 
 //output
 echo $SUV -> dapatSubsidi();
