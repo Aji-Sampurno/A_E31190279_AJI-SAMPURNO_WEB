@@ -21,7 +21,7 @@ $mercedes = new car();
 echo $bmw -> color;
 echo "<br />";
 echo $mercedes -> color;
-echo "<br/>";
+echo "<hr/>";
 
 // set values
 $bmw -> color = 'blue';
