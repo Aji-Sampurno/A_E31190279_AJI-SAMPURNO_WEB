@@ -13,7 +13,7 @@ class Car {
 
 $mercedes = new Car();
 
-//akses property dari luar class.
+////akses property dari luar class.
 $mercedes -> model = "Mercedes benz";
 echo $mercedes -> getModel();
 
