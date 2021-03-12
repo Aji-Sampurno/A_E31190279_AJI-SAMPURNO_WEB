@@ -9,7 +9,7 @@ class Car {
 	//method = hello
 	public function hello()
 	{
-		return "Beep I am a ".$this -> comp."and I am ".this -> color;
+		return "Beep I am a <i>".$this -> comp."</i>, and I am <i>".$this -> color;
 	}
 }
 

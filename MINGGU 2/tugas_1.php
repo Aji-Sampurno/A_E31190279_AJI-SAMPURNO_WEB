@@ -15,7 +15,7 @@ class laptop {
 	
 	public function restart_laptop()
 	{
-		return "Matikan_laptop ".$this -> merk." milik ".$this -> pemilik. ". Hidupkan laptop ".$this -> merk." milik ".$this -> pemilik;
+		return "Matikan laptop ".$this -> merk." milik ".$this -> pemilik. ". Hidupkan laptop ".$this -> merk." milik ".$this -> pemilik;
 	}
 }
 
