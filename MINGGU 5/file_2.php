@@ -3,7 +3,7 @@ include('file_1.php');
 class Circle implements Shape{
 	private $radius;
 	
-	public function _construct($radius)
+	public function __construct($radius)
 	{
 		$this -> radius = $radius;
 	}
