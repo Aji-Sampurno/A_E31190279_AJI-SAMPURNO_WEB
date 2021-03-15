@@ -1,5 +1,5 @@
 <?php
 	class soal2_model extends CI_Model{
-		public $txt = ['variabel1'=>'Data variabel ke 1', 'variabel2'=>'Data variabel ke 2'];
+		public $dataku = ['data1'=>'Data variabel ke 1', 'data2'=>'Data variabel ke 2', 'data3'=>'Data variabel ke 3', 'data4'=>'Data variabel ke 4'];
 	}
 ?>

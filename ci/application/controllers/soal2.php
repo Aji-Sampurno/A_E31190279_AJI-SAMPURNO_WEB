@@ -5,9 +5,9 @@ class soal2 extends CI_Controller{
 
 		$model = $this -> soal2_model;
 
-		$a = $model -> txt;
+		$a = $model -> dataku;
 
-		$data['teks'] = $a;
+		$data['dataku'] = $a;
 
 		$this -> load -> view ('soal2_view', $data);
 	}
