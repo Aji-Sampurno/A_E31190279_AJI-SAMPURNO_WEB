@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\application"
   ],
-  "SelectedNode": "\\.htaccess",
+  "SelectedNode": "\\application\\cache",
   "PreviewInSolutionExplorer": false
 }
