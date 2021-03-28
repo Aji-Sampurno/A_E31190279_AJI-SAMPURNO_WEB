@@ -53,5 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['Kode/(:any)']='Kode/hello/$1';
+
 $route['profil'] = 'welcome/profil';
 $route['contact'] = 'welcome/contact';

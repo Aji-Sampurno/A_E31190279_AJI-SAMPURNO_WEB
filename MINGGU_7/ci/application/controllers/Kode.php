@@ -4,16 +4,16 @@ class Kode extends CI_Controller{
 		if (isset($var)){
 			switch(strtolower($var)){
 			case 'php':
-				$this -> laod -> view('phpview');
+				$this -> load -> view('phpview');
 				break;
 			case 'python':
-				$this -> laod -> view('pythonview');
+				$this -> load -> view('pythonview');
 				break;
 			case 'cpp':
-				$this -> laod -> view('cppview');
+				$this -> load -> view('cppview');
 				break;
 			case 'java':
-				$this -> laod -> view('javaview');
+				$this -> load -> view('javaview');
 				break;
 			default:
 				echo 'Input URI salah';
