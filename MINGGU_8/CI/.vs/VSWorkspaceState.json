@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\models"
+    "\\application\\models",
+    "\\application\\views"
   ],
-  "SelectedNode": "\\application\\models\\Mahasiswa_model.php",
+  "SelectedNode": "\\application\\views\\view_angkatan.php",
   "PreviewInSolutionExplorer": false
 }

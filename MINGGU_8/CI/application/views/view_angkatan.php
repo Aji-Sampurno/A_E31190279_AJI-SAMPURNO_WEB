@@ -20,14 +20,12 @@
 	<table>
 		<tr>
 			<td>No</td>
-			<td>Nama</td>
-			<td>Prodi</td>
+			<td>Tahun</td>
 		</tr>
-		<?php foreach ($Mahasiswa as $row) : ?>
+		<?php foreach ($Angkatan as $row) : ?>
 		<tr>
 			<td><?= $x++; ?></td>
-			<td><?= $row['nama']; ?></td>
-			<td><?= $row['prodi']; ?></td>
+			<td><?= $row['angkatan']; ?></td>
 		</tr>
 		<?php endforeach; ?>
 
