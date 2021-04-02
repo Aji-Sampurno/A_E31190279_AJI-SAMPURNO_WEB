@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\models",
+    "\\application\\controllers",
     "\\application\\views"
   ],
-  "SelectedNode": "\\application\\views\\view_angkatan.php",
+  "SelectedNode": "\\application\\views\\template.php",
   "PreviewInSolutionExplorer": false
 }
