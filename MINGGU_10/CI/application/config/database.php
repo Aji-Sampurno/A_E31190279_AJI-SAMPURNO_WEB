@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_ci',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'localhost',//digunakan untuk mendeklarasikan hostname yang digunakan
+	'username' => 'root',//digunakan untuk mendeklarasikan username
+	'password' => '',//digunakan untuk mendeklarasikan password
+	'database' => 'db_ci',//digunakan untuk mendeklarasikan nama database yang digunakan
+	'dbdriver' => 'mysqli',//digunakan untuk mendeklarasikan driver untuk database
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),

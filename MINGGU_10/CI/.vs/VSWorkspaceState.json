@@ -3,12 +3,10 @@
     "",
     "\\application",
     "\\application\\config",
-    "\\application\\controllers",
-    "\\application\\libraries",
-    "\\application\\models",
     "\\application\\views",
-    "\\application\\views\\crud"
+    "\\application\\views\\crud",
+    "\\assets\\vendor\\fontawesome-free"
   ],
-  "SelectedNode": "\\application\\views\\crud\\home_mahasiswa.php",
+  "SelectedNode": "\\application\\config\\config.php",
   "PreviewInSolutionExplorer": false
 }

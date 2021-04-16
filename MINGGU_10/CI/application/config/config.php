@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+//untuk mengatur dan menentukan base url yang akan diakses
 $config['base_url'] = 'http://localhost/A_E31190279_AJI-SAMPURNO_WEB/MINGGU_10/CI/';
 
 /*

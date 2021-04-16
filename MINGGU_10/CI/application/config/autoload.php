@@ -59,6 +59,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 $autoload['libraries'] = array('table','template','database','session');
+/*digunakan untuk menggunakan Libraries dalam mengakses table, template, database dan session
 
 /*
 | -------------------------------------------------------------------
