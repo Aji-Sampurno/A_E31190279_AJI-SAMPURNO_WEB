@@ -2,11 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\config",
-    "\\application\\views",
-    "\\application\\views\\crud",
-    "\\assets\\vendor\\fontawesome-free"
+    "\\application\\views\\crud"
   ],
-  "SelectedNode": "\\application\\config\\config.php",
   "PreviewInSolutionExplorer": false
 }
