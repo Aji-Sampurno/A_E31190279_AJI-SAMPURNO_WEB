@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //untuk mengatur dan menentukan base url yang akan diakses
-$config['base_url'] = 'http://localhost/A_E31190279_AJI-SAMPURNO_WEB/MINGGU_11/CI/';
+$config['base_url'] = 'http://localhost/A_E31190279_AJI-SAMPURNO_WEB/MINGGU_12/CI/';
 
 /*
 |--------------------------------------------------------------------------
