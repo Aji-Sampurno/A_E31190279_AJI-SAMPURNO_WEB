@@ -1,3 +1,7 @@
+<?php
+$getUser = $this->session->userdata('session_user');
+$getGrup = $this->session->userdata('session_grup');
+?>
 <!-- untuk membuat tag div -->
 <div class="card shadow mb-4">
 	<!-- untuk membuat tag div -->
@@ -54,8 +58,13 @@
 					<!-- untuk menampilkan output grup yang didapat dari database -->
 					<td><?php echo $baris -> grup; ?></td>
 					<td>
-					<a href="<?php echo base_url('Mahasiswa/edit/'.$baris->id); ?>" class="fa fa-edit">&nbsp;
-					<a href="<?php echo base_url('Mahasiswa/hapus/'.$baris->id); ?>" class="fa fa-times">
+					<?php
+						if($getGrup==1){
+							echo '<a href="'.base_url('Mahasiswa/edit/'.$baris->id).'"class="fa fa-edit"></a>';
+							echo " ";
+							echo '<a href="'.base_url('Mahasiswa/hapus/'.$baris->id).'"class="fa fa-times"></a>';
+						}
+					?>
 					</td>
 				</tr>
 				<?php } ?>

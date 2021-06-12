@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\application",
-    "\\application\\views"
+    "\\application\\controllers",
+    "\\application\\views",
+    "\\application\\views\\Admin",
+    "\\application\\views\\Admin\\_Template",
+    "\\application\\views\\crud"
   ],
-  "SelectedNode": "\\application\\views\\Admin",
+  "SelectedNode": "\\application\\views\\Admin\\_Template\\Template.php",
   "PreviewInSolutionExplorer": false
 }

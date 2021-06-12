@@ -41,5 +41,14 @@ class Mahasiswa_model extends CI_Model{
 		$this->db->where($where);
 		$this->db->delete($table);
 	}
+
+	function login($user,$pass,$table){
+		$this->db->select('*');
+		$this->db->from('tm_user');
+		$this->db->where('username',$user);
+		$this->db->where('password',$pass);
+		$query = $this->db->get();
+		return $query;
+	}
 }
 ?>
