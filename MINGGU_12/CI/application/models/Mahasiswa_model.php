@@ -41,7 +41,7 @@ class Mahasiswa_model extends CI_Model{
 		$this->db->where($where);
 		$this->db->delete($table);
 	}
-
+	//untuk membuat function login dan mengambil data dari database
 	function login($user,$pass,$table){
 		$this->db->select('*');
 		$this->db->from('tm_user');

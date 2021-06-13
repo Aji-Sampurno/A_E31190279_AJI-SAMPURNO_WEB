@@ -1,4 +1,5 @@
 <?php
+//digunakan untuk mendapatkan data session login
 $getUser = $this->session->userdata('session_user');
 $getGrup = $this->session->userdata('session_grup');
 ?>
@@ -32,6 +33,7 @@ $getGrup = $this->session->userdata('session_grup');
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
+			<!-- digunakan untuk menerikan menu pada sidebar ketika admin yang melakukan login-->
             <?php 
 				if($getGrup==1){
 					echo'<li class="nav-item">

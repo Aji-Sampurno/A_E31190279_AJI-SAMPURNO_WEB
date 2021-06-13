@@ -1,4 +1,5 @@
 <?php
+//digunakan untuk mendapatkan data session login
 $getUser = $this->session->userdata('session_user');
 $getGrup = $this->session->userdata('session_grup');
 ?>
@@ -58,6 +59,7 @@ $getGrup = $this->session->userdata('session_grup');
 					<!-- untuk menampilkan output grup yang didapat dari database -->
 					<td><?php echo $baris -> grup; ?></td>
 					<td>
+					<!-- untuk memberikan akses edit dan hapus data terhadap admin -->
 					<?php
 						if($getGrup==1){
 							echo '<a href="'.base_url('Mahasiswa/edit/'.$baris->id).'"class="fa fa-edit"></a>';
@@ -76,5 +78,28 @@ $getGrup = $this->session->userdata('session_grup');
 		<a href="<?php echo base_url('Mahasiswa/tambah')?>" class="btn btn-success btn-icon-split">
 		<span class="text">Tambah Data</span>
 		</a>
+
+		<!-- Welcome Modal-->
+		<!-- membuat pop up modal -->
+		<div class="modal fade text-center" id="WelcomeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">WELCOME BACK</h5>
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">×</span>
+						</button>
+					</div>
+					<!-- untuk mendapatkan data user atau admin yang melakukan login dan menampilkan username yang sesuai -->
+					<div class="modal-body">
+						<h5 class="modal-title" id="exampleModalLabel"><?php echo $getUser; ?></h5>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-secondary" type="button" data-dismiss="modal">OK</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
 <!-- akhiran tag div -->
 </div></div></div>
