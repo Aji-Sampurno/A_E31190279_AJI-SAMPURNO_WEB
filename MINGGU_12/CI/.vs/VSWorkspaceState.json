@@ -3,11 +3,12 @@
     "",
     "\\application",
     "\\application\\controllers",
+    "\\application\\models",
     "\\application\\views",
     "\\application\\views\\Admin",
     "\\application\\views\\Admin\\_Template",
     "\\application\\views\\crud"
   ],
-  "SelectedNode": "\\application\\views\\Admin\\_Template\\Template.php",
+  "SelectedNode": "\\application\\controllers\\Login.php",
   "PreviewInSolutionExplorer": false
 }

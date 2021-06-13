@@ -30,6 +30,6 @@ defined('BASEPATH') OR exit ('No direct script access allowed');
 			{
 				// hancurkan semua sesi
 				$this->session->sess_destroy();
-				$this->load->view('crud/login');
+				redirect('Login');
 			}
 	}
