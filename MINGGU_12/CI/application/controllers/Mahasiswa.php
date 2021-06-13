@@ -93,6 +93,24 @@
 			echo json_encode($array);
 		}
 
+		public function ApiUpdate(){
+
+			$username = $this->input->post('username');
+			$password = $this->input->post('password');
+			$nama = $this->input->post('nama');
+			$grup = $this->input->post('grup');
+
+			$data = array(
+				'username' => $username,
+				'password' => $password,
+				'nama' => $nama,
+				'grup' => $grup,
+			);
+
+			$this->Mahasiswa_model->update_data($data,'tm_user');
+			echo json_encode($array);
+		}
+
 		public function ApiDelete(){
 			if ($this->input->post('username')){
 				$where = array('username'=>$this->input->post('username'));

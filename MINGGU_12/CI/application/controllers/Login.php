@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit ('No direct script access allowed');
 			$cek = $this->Mahasiswa_model->Login($username,$password,'tm_user')->result();
 			if($cek != FALSE){
 				foreach ($cek as $row){
-					$user = $row->usename;
+					$user = $row->username;
 					$grup = $row->grup;
 				}
 				$this->session->set_userdata('session_user',$user);
@@ -25,12 +25,11 @@ defined('BASEPATH') OR exit ('No direct script access allowed');
 			}else{
 				$this->load->view('crud/login');
 			}
-
-			function logout()
+		}
+		public function logout()
 			{
 				// hancurkan semua sesi
 				$this->session->sess_destroy();
-				redirect(base_url('crud/login'));
+				$this->load->view('crud/login');
 			}
-		}
 	}

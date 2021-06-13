@@ -42,8 +42,8 @@ $getGrup = $this->session->userdata('session_grup');
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar" disabled="true">
 						<div class="bg-white py-2 collapse-inner rounded">
 							<h6 class="collapse-header">Master Data:</h6>
-							<a class="collapse-item" href="buttons.html">Master User</a>
-							<a class="collapse-item" href="cards.html">Master Grup</a>
+							<a class="collapse-item" href='.base_url('Mahasiswa').'>Master User</a>
+							<a class="collapse-item" href='.base_url('Grup').'>Master Grup</a>
 						</div>
 					</div>
 					</li>';
