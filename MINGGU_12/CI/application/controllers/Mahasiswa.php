@@ -107,7 +107,9 @@
 				'grup' => $grup,
 			);
 
-			$this->Mahasiswa_model->update_data($data,'tm_user');
+			$where = array('username' => $username);
+			
+			$this->Mahasiswa_model->update_data($where,$data,'tm_user');
 			echo json_encode($array);
 		}
 
