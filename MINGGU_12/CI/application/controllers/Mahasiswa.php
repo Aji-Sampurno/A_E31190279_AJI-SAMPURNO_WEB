@@ -110,7 +110,7 @@
 			$where = array('username' => $username);
 			
 			$this->Mahasiswa_model->update_data($where,$data,'tm_user');
-			echo json_encode($array);
+			echo json_encode($data);
 		}
 
 		public function ApiDelete(){
